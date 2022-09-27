@@ -1,0 +1,26 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: gateway
+  cloud:
+#    gateway:
+#      discovery:
+#        locator:
+#          enabled: true
+#          lower-case-service-id: true
+#      routes:
+#        - id: user-service
+#          order: 1
+#          predicates:
+#            - Path=/users/**
+#          uri: http://hy.blog-jyh.top:8081
+#        - id: content-service
+#          order: 1
+#          predicates:
+#            - Path=/shares/**
+#          uri: http://hy.blog-jyh.top:8088
+    nacos:
+      password: nacos
+      server-addr: 198.211.51.239:8848
+      username: nacos

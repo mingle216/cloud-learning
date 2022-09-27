@@ -1,0 +1,21 @@
+server:
+  port: 8081
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 198.211.51.239:8848
+        heart-beat-interval: 5000
+        heart-beat-timeout: 20000
+        namespace: dev
+        register-enabled: true
+      username: nacos
+      password: nacos
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/share?serverTimezone=Asia/Shanghai&characterEncoding=utf-8
+#    hikari:
+#      username: root
+#      password: 123456
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+

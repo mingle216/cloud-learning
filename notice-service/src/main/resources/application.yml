@@ -1,0 +1,5 @@
+server:
+  port: 8084
+#logging:
+#  level:
+#    com.jyh.content.openfeign.UserService: debug
